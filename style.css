@@ -2,6 +2,7 @@
     position: absolute;
     width:100%;
     float:left;
+    
 }
 .center {
     position: fixed;
@@ -11,13 +12,22 @@
     display: none; 
  
   }
+  .title{
+    position:absolute;
+    left:41%;
+  }
+ 
 .cen {
-    background-color: lightgray;
+    background-color: #D8D8D8;
     margin: auto;
     border: 1.25px solid grey;
+    padding: 18px;
     width: 88%;
     height:500px;
-    padding: 19px;
+  }
+  .cen>img{
+    position:absolute;
+    left:38%;
   }
   
 
@@ -32,3 +42,23 @@
     color: blue;
     cursor: pointer;
   }
+  .img{
+    margin: 10px;
+    padding:10px;
+  }
+  .my{
+    left:40%;
+    position:absolute;
+    top:10%;
+  }
+  .left{
+    position:absolute;
+    left:10%;
+    top:50%;
+  }
+  .right{
+    position:absolute;
+    left:85%;
+    top:50%;
+  }
+  
